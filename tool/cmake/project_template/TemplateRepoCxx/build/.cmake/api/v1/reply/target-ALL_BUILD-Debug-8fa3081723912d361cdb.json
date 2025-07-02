@@ -1,0 +1,90 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "main::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "hello::@dea9089e5c24797240da"
+		},
+		{
+			"id" : "demangle_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "stacktrace_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "logging_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "utilities_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "glog_internal::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "glog::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "stl_logging_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "symbolize_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "custom_sink_example::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "log_test::@49e21c1b9b511e65ef84"
+		},
+		{
+			"id" : "signalhandler_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_with_absolute_prefix_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog0_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_immediately_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_with_relative_prefix_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog2_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog10_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

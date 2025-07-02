@@ -1,0 +1,259 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/MinSizeRel/utilities_unittest.exe"
+		},
+		{
+			"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/MinSizeRel/utilities_unittest.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"include/glog-master/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 602,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 606,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_NO_ABBREVIATED_SEVERITIES"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "GLOG_NO_SYMBOLIZE_DETECTION"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_USE_GLOG_EXPORT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_USE_WINDOWS_PORT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/glog-master/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/glog-master"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/glog-master/src/windows"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "glog_internal::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "utilities_unittest::@62c3842f89863b03fd6d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\demangle.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\flags.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\logging.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\raw_logging.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\signalhandler.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\stacktrace.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\symbolize.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\utilities.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\vlog_is_on.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glog_internal.dir\\$(Configuration)\\port.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "utilities_unittest",
+	"nameOnDisk" : "utilities_unittest.exe",
+	"paths" : 
+	{
+		"build" : "include/glog-master",
+		"source" : "include/glog-master"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/utilities_unittest.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

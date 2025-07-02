@@ -1,0 +1,2 @@
+G:\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\ar.exe qc libhello.a CMakeFiles/hello.dir/hello.cpp.obj
+G:\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\ranlib.exe libhello.a

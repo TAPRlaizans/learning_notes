@@ -1,0 +1,10 @@
+^F:\CODE_PROJECT\LEARN\工具学习\CMAKE\CMAKE_TEST_USER_3RDLIB\3RDPARTY\FMT\CMAKELISTS.TXT
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib -BF:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/build --check-stamp-file F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/build/3rdparty/fmt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

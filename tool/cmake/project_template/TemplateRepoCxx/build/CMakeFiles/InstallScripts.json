@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/src/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/hello/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/glog-master/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log_test/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/test/cmake_install.cmake",
+		"F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

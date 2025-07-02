@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/3rdparty/fmt/CMakeLists.txt
+F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/3rdparty/fmt/support/cmake/JoinPaths.cmake
+F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/3rdparty/fmt/support/cmake/fmt-config.cmake.in
+F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/3rdparty/fmt/support/cmake/fmt.pc.in
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CMakeParseArguments.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/Internal/CheckFlagCommonConfig.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+G:/cmake/cmake-4.0.3-windows-x86_64/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake

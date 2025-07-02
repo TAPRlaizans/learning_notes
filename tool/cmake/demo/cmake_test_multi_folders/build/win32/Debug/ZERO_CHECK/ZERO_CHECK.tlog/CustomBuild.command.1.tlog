@@ -1,0 +1,10 @@
+^F:\CODE_PROJECT\LEARN\工具学习\CMAKE\CMAKE_TEST_MULTI_FOLDERS\BUILD\CMAKEFILES\4FF0D7DB08D916BC52A8D2725A880003\GENERATE.STAMP.RULE
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders -BF:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build/multi-folder.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

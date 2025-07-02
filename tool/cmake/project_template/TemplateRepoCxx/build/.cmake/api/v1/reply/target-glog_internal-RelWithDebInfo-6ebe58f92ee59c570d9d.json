@@ -1,0 +1,378 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/demangle.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/flags.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/logging.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/raw_logging.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/signalhandler.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/stacktrace.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/symbolize.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/utilities.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/vlog_is_on.obj"
+		},
+		{
+			"path" : "include/glog-master/glog_internal.dir/RelWithDebInfo/port.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"include/glog-master/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 499,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 486,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 497,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_NO_ABBREVIATED_SEVERITIES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_NO_SYMBOLIZE_DETECTION"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_USE_GLOG_EXPORT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GLOG_USE_WINDOWS_PORT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GOOGLE_GLOG_IS_A_DLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/glog-master/src/windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/glog-master/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/glog-master"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				21,
+				23,
+				24
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "glog_internal::@62c3842f89863b03fd6d",
+	"name" : "glog_internal",
+	"paths" : 
+	{
+		"build" : "include/glog-master",
+		"source" : "include/glog-master"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				18,
+				20,
+				22,
+				25
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				11,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				21,
+				23,
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "build/include/glog-master/glog/export.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/log_severity.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/platform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/raw_logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/stl_logging.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/flags.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/glog/vlog_is_on.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/base/commandlineflags.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/base/googleinit.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/demangle.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/demangle.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/flags.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/logging.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/raw_logging.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/signalhandler.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/stacktrace.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/stacktrace.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/symbolize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/symbolize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/utilities.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/utilities.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/vlog_is_on.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/glog-master/src/windows/port.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/glog-master/src/windows/port.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib/build/cmake_install.cmake",
+		"F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib/build/modules/cmake_install.cmake",
+		"F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib/build/modules/hello/cmake_install.cmake",
+		"F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib/build/3rdparty/fmt/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

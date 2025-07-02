@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\cleanup_immediately_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\cleanup_with_absolute_prefix_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\cleanup_with_relative_prefix_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\glogd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\custom_sink_example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\demangle_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\logging_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\signalhandler_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\stacktrace_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\stl_logging_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\striplog0_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\striplog10_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\striplog2_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\symbolize_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\test1.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\utilities_unittest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

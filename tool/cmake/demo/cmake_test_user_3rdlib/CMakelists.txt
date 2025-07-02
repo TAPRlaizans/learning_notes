@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+project(use_3rdparty)
+
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+set(PATH_LIBFMT ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/fmt)
+
+add_subdirectory(modules)
+
+#将第三方库头文件路径加入项目
+include_directories(${PATH_LIBFMT}/include)
+#将第三方库加入项目，作为子项目
+add_subdirectory(${PATH_LIBFMT})
+
+add_executable(${PROJECT_NAME} main.cpp)
+#链接第三方库
+#hello是自己定义的第三方库
+
+target_link_libraries(${PROJECT_NAME} hello fmt)
+

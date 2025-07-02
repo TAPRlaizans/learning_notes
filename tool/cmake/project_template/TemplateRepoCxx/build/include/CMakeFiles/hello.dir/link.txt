@@ -1,0 +1,2 @@
+G:\Mingw\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\mingw64\bin\ar.exe qc libhello.a CMakeFiles/hello.dir/hello.cpp.obj
+G:\Mingw\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\mingw64\bin\ranlib.exe libhello.a

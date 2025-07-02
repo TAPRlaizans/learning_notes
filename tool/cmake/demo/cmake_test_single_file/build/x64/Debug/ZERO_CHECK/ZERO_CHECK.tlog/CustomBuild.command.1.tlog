@@ -1,0 +1,10 @@
+^F:\CODE_PROJECT\LEARN\工具学习\CMAKE\CMAKE_TEST_SINGLE_FILE\BUILD\CMAKEFILES\D2E4AC798078AC6C371A637422F1308B\GENERATE.STAMP.RULE
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/工具学习/cmake/cmake_test_single_file -BF:/code_project/Learn/工具学习/cmake/cmake_test_single_file/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/code_project/Learn/工具学习/cmake/cmake_test_single_file/build/hello-world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

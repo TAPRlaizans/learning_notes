@@ -1,0 +1,81 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/glog-master/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "demangle_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "stacktrace_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "logging_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "utilities_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "glog_internal::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "glog::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "stl_logging_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "symbolize_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "custom_sink_example::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "signalhandler_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_with_absolute_prefix_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog0_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_immediately_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "cleanup_with_relative_prefix_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog2_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "striplog10_unittest::@62c3842f89863b03fd6d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@62c3842f89863b03fd6d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "include/glog-master",
+		"source" : "include/glog-master"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

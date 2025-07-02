@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09433258-7378-3F12-B340-8EB7B5A86CA6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>log</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">log.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">log</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">log.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">log</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">log.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">log</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">log.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">log</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR="Debug";log_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR=\"Debug\";log_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glog-master\Debug\glogd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/Debug/log.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/Debug/log.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR="Release";log_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR=\"Release\";log_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glog-master\Release\glog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/Release/log.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/Release/log.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR="MinSizeRel";log_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR=\"MinSizeRel\";log_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glog-master\MinSizeRel\glog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/MinSizeRel/log.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/MinSizeRel/log.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR="RelWithDebInfo";log_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOG_USE_GLOG_EXPORT;GLOG_NO_ABBREVIATED_SEVERITIES;CMAKE_INTDIR=\"RelWithDebInfo\";log_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src;F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\glog-master\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glog-master\RelWithDebInfo\glog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/RelWithDebInfo/log.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/bin/RelWithDebInfo/log.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/log/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\log\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/log/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\log\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/log/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\log\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/log/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/log/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\log\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\include\log\log.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\ZERO_CHECK.vcxproj">
+      <Project>{F3CA42E5-BAAA-3E11-B1D6-F166D63DEC20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_project\Learn\tool\cmake\project_template\TemplateRepoCxx\build\include\glog-master\glog.vcxproj">
+      <Project>{5C827878-AEBE-31EB-B54C-D8AE00CBDBE5}</Project>
+      <Name>glog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

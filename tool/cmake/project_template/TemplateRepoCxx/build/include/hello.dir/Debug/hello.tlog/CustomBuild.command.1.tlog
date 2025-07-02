@@ -1,0 +1,10 @@
+^F:\CODE_PROJECT\LEARN\TOOL\CMAKE\PROJECT_TEMPLATE\TEMPLATEREPOCXX\INCLUDE\CMAKELISTS.TXT
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

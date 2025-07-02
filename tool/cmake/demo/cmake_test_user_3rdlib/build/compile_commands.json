@@ -1,0 +1,14 @@
+[
+{
+  "directory": "F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/build",
+  "command": "G:\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/multi_folder.dir/includes_CXX.rsp -g -o CMakeFiles\\multi_folder.dir\\main.cpp.obj -c F:\\code_project\\Learn\\工具学习\\cmake\\cmake_test_user_3rdlib\\main.cpp",
+  "file": "F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/main.cpp",
+  "output": "CMakeFiles/multi_folder.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/build/modules/hello",
+  "command": "G:\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/hello.dir/includes_CXX.rsp -g -o CMakeFiles\\hello.dir\\hello.cpp.obj -c F:\\code_project\\Learn\\工具学习\\cmake\\cmake_test_user_3rdlib\\modules\\hello\\hello.cpp",
+  "file": "F:/code_project/Learn/工具学习/cmake/cmake_test_user_3rdlib/modules/hello/hello.cpp",
+  "output": "modules/hello/CMakeFiles/hello.dir/hello.cpp.obj"
+}
+]

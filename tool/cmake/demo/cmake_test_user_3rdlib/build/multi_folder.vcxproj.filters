@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code_project\Learn\工具学习\cmake\cmake_test_user_3rdlib\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_project\Learn\工具学习\cmake\cmake_test_user_3rdlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5A34065B-1E07-3A72-BE77-4130ED440442}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

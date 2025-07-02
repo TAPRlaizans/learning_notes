@@ -1,0 +1,20 @@
+^F:\CODE_PROJECT\LEARN\TOOL\CMAKE\PROJECT_TEMPLATE\TEMPLATEREPOCXX\BUILD\CMAKEFILES\D06F71D718B177B49CD2C1406836773E\GLOG.CC.RULE
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -E touch F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/glog-master/CMakeFiles/glog.cc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE_PROJECT\LEARN\TOOL\CMAKE\PROJECT_TEMPLATE\TEMPLATEREPOCXX\INCLUDE\GLOG-MASTER\CMAKELISTS.TXT
+setlocal
+G:\cmake\cmake-4.0.3-windows-x86_64\bin\cmake.exe -SF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx -BF:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build --check-stamp-file F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include/glog-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

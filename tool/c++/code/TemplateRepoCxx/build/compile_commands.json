@@ -1,0 +1,14 @@
+[
+{
+  "directory": "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/src",
+  "command": "G:\\Mingw\\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\main.cpp.obj -c F:\\code_project\\Learn\\tool\\cmake\\project_template\\TemplateRepoCxx\\src\\main.cpp",
+  "file": "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/build/include",
+  "command": "G:\\Mingw\\x86_64-13.2.0-release-win32-seh-ucrt-rt_v11-rev1\\mingw64\\bin\\g++.exe  @CMakeFiles/hello.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\hello.dir\\hello.cpp.obj -c F:\\code_project\\Learn\\tool\\cmake\\project_template\\TemplateRepoCxx\\include\\hello.cpp",
+  "file": "F:/code_project/Learn/tool/cmake/project_template/TemplateRepoCxx/include/hello.cpp",
+  "output": "include/CMakeFiles/hello.dir/hello.cpp.obj"
+}
+]

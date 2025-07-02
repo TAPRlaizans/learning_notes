@@ -1,0 +1,640 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-modules-Debug-7b6b9df59a6e09a69f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/hello",
+					"jsonFile" : "directory-modules.hello-Debug-e98073b39fe867382eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "modules/hello",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.fmt-Debug-271cc8d7a7cff9027089.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "use_3rdparty",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-3b299f840e10dcacfa1e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-ALL_BUILD-Debug-9a999de5aa716bb6bfa8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-062bc52550e81ed59d86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-Debug-fd4bb32cbf4799badc16.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@19265c0287c1480416c0",
+					"jsonFile" : "target-hello-Debug-88ff0a899e2eb83a389b.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use_3rdparty::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use_3rdparty-Debug-355f791d314441b39a27.json",
+					"name" : "use_3rdparty",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-modules-Release-7b6b9df59a6e09a69f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/hello",
+					"jsonFile" : "directory-modules.hello-Release-e98073b39fe867382eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "modules/hello",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.fmt-Release-1a416b44e8d6499aa52a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "use_3rdparty",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-3b299f840e10dcacfa1e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-ALL_BUILD-Release-9a999de5aa716bb6bfa8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-062bc52550e81ed59d86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-Release-ceaca3b3bf087d531e27.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@19265c0287c1480416c0",
+					"jsonFile" : "target-hello-Release-3730216ce24ac4b06c8e.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use_3rdparty::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use_3rdparty-Release-9d76faa2e224e9d39cd4.json",
+					"name" : "use_3rdparty",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-modules-MinSizeRel-7b6b9df59a6e09a69f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/hello",
+					"jsonFile" : "directory-modules.hello-MinSizeRel-e98073b39fe867382eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "modules/hello",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.fmt-MinSizeRel-96303be174098618fe81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "use_3rdparty",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3b299f840e10dcacfa1e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9a999de5aa716bb6bfa8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-062bc52550e81ed59d86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-MinSizeRel-db5354d85e7aef07b9ac.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@19265c0287c1480416c0",
+					"jsonFile" : "target-hello-MinSizeRel-c0589e1592bdcfc70c83.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use_3rdparty::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use_3rdparty-MinSizeRel-3d418a2134761696b557.json",
+					"name" : "use_3rdparty",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-modules-RelWithDebInfo-7b6b9df59a6e09a69f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/hello",
+					"jsonFile" : "directory-modules.hello-RelWithDebInfo-e98073b39fe867382eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "modules/hello",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.fmt-RelWithDebInfo-42cc7222b2b25810b3f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "use_3rdparty",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3b299f840e10dcacfa1e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9a999de5aa716bb6bfa8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-062bc52550e81ed59d86.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-RelWithDebInfo-c9f5afbe40547d094a00.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@19265c0287c1480416c0",
+					"jsonFile" : "target-hello-RelWithDebInfo-3b024ec2dde8879cd41f.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use_3rdparty::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use_3rdparty-RelWithDebInfo-f59f1f82e4e3e2557cc9.json",
+					"name" : "use_3rdparty",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib/build",
+		"source" : "F:/code_project/Learn/\u5de5\u5177\u5b66\u4e60/cmake/cmake_test_user_3rdlib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

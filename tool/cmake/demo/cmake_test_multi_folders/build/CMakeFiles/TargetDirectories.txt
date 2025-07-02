@@ -1,0 +1,4 @@
+F:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build/CMakeFiles/multi-folder.dir
+F:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build/CMakeFiles/ALL_BUILD.dir
+F:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build/CMakeFiles/ZERO_CHECK.dir
+F:/code_project/Learn/工具学习/cmake/cmake_test_multi_folders/build/modules/hello/CMakeFiles/hello.dir

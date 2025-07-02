@@ -1,0 +1,8 @@
+[
+{
+  "directory": "F:/code_project/Learn/工具学习/cmake/cmake_test_single_file/build",
+  "command": "G:\\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\caonima.dir\\main.cpp.obj -c F:\\code_project\\Learn\\工具学习\\cmake\\cmake_test_single_file\\main.cpp",
+  "file": "F:/code_project/Learn/工具学习/cmake/cmake_test_single_file/main.cpp",
+  "output": "CMakeFiles/caonima.dir/main.cpp.obj"
+}
+]
