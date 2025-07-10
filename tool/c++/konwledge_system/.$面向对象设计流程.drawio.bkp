@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2025-07-07T04:48:35.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="2vVDr5zOq6P2HR_1VlSU" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="SLF159cUe8KJbmV0bSF7">
+    <mxGraphModel dx="1523" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cfM7ZwdN2CrilfpZp4DN-1" target="cfM7ZwdN2CrilfpZp4DN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-18" value="《需求描述报告》" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfM7ZwdN2CrilfpZp4DN-17">
+          <mxGeometry x="-0.4587" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-1" value="面向对象分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cfM7ZwdN2CrilfpZp4DN-2" target="cfM7ZwdN2CrilfpZp4DN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-9" value="类设计报告" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfM7ZwdN2CrilfpZp4DN-8">
+          <mxGeometry x="0.0628" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-2" value="面向对象设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-3" value="面向对象编程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cfM7ZwdN2CrilfpZp4DN-10" target="cfM7ZwdN2CrilfpZp4DN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-10" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cfM7ZwdN2CrilfpZp4DN-14" target="cfM7ZwdN2CrilfpZp4DN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfM7ZwdN2CrilfpZp4DN-15">
+          <mxGeometry x="-0.327" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cfM7ZwdN2CrilfpZp4DN-14" target="cfM7ZwdN2CrilfpZp4DN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-22" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfM7ZwdN2CrilfpZp4DN-21">
+          <mxGeometry x="-0.3687" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfM7ZwdN2CrilfpZp4DN-14" value="询问相关方是否符合需求" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181.25" y="230" width="187.5" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
